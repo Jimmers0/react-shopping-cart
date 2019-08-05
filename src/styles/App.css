@@ -1,2 +1,175 @@
 html {box-sizing:border-box;}
 *, *::before, *::after {box-sizing:inherit;}
+
+.cart {
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+    height: auto;
+    background: black;
+    border-radius: 10px;
+    width: 300px;
+    font-family: "Roboto" ,sans-serif;
+    margin-top: 20px;
+}
+
+.totalnone {
+    display: none;
+}
+
+.total {
+    font-size: 25px;
+    color: white;
+    font-family: "Roboto" ,sans-serif;
+    margin: 0 0 20px 20px;
+    padding-bottom: 20px;
+
+}
+
+.cartitem {
+    display: flex;
+}
+
+.productcontainer{
+    height: 508px;
+    width: 233px;
+    border: 1px solid transparent;
+    
+}
+
+.productcontainer:hover {
+    height: 508px;
+    width: 233px;
+    border: 1px solid lightgray;
+}
+
+.productcontainer:hover .addtocart{
+  
+    color: white;
+    height: 50px;
+    width: 220px;
+    background: rgb(228, 192, 64);
+    margin-left: 5px;
+    position: relative;
+    top: -53px;
+    font-family: "Roboto" ,sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    border: 0;
+
+    
+
+}
+
+.productimg {
+    width: 230px;
+    height: 333px;
+    position: relative;
+    top:-40px
+}
+
+.free{
+    background: black;
+    color: white;
+    position: relative;
+    width: 68px;
+    height: 21px;
+    font-size: .6em;
+    text-align: center;
+    line-height: 21px;
+    top: -3px;
+    right: -162px;
+    z-index: 2;
+    
+}
+
+.notfree{
+    background: transparent;
+    color: transparent;
+    position: relative;
+    width: 68px;
+    height: 21px;
+    font-size: .6em;
+    text-align: center;
+    line-height: 21px;
+    top: -3px;
+    right: -162px;
+    z-index: 2;
+}
+    
+.product {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.options {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.orderby {
+    margin-left: 600px;
+}
+
+.select {
+    margin-left: 10px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid lightgrey;
+}
+
+.shelf {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.infocontainer {
+    position: relative;
+    top: -50px;
+    height: 100px;
+    width: 230px;
+    text-align: center;
+    font-family: "Roboto" ,sans-serif;
+    
+}
+
+.title {
+    padding: 0 35px 0px 35px;
+    font-size: 17px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.goldbox {
+    background-color: rgb(228, 192, 64);
+    height: 2px;
+    width: 20px;
+    margin-left: 105px;
+}
+
+.addtocart {
+    color: white;
+    height: 50px;
+    width: 220px;
+    background: black;
+    margin-left: 5px;
+    position: relative;
+    top: -53px;
+    font-family: "Roboto" ,sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productimgcart {
+    height: 90px;
+    width: 60px;
+    margin: 10px;
+}
